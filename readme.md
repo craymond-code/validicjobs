@@ -36,7 +36,11 @@ Additionally if we get a non-200 from the Github API I'm just bubbling up an unh
 I like my service to be ignorant to where it's being used, do its best to get/post/del the data, report the health of the upstream system via exceptions that bubble up, and any throttling/alerts that the health of an API is not 100% should be tunable based on the situation.
 
 ## Tradeoffs
-I wanted to ensure I demonstrated I can throw some dependencies together and won't re-invent the wheel (I'm not manually parsing any json) but also that I can logically structure my code and not simply configure all-in-one frameworks. I worked on this in 2, 3 hours chunks wednesday night and thursday morning, and if timing had been better I would have reached out for more clarification on what the dev team was looking for. I know often teams are hoping to see a candidate reach out to clarify requirements (obviously important in the real-world) and if I did this over at a different time I would reach out as soon as the email came in. It's been a busy week and Cathy indicated returning it in the next few days would be fine, but I did try to limit myself to 6 hours as the instructions laid out. Additionally one giant check-in is not really how I use source control on a real codebase.
+I wanted to ensure I demonstrated I can throw some dependencies together and won't re-invent the wheel (I'm not manually parsing any json) but also that I can logically structure my code and not simply configure all-in-one frameworks. 
+
+I worked on this in 2, 3 hours chunks wednesday night and thursday morning, and if timing had been better I would have reached out for more clarification on what the dev team was looking for. I know often teams are hoping to see a candidate reach out to clarify requirements (obviously important in the real-world) and if I did this over at a different time I would reach out as soon as the email came in. 
+
+It's been a busy week and Cathy indicated returning it in the next few days would be fine, but I did try to limit myself to 6 hours as the instructions laid out. Additionally one giant check-in and a few cleanup pushes is not really how I use source control on a real codebase.
 
 ## Where to go to move this to a production-ready environment
 My steps would be as follows:
